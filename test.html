@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Basic usage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Intro.js - intro.js 页面引导简单用法.">
+    <meta name="author" content="chason">
+    <!-- styles -->
+    <style type="text/css">
+    body { padding: 100px; }
+    div[data-step] { width: 260px; }
+    </style>
+
+    <link href="assets/css/introjs.css" rel="stylesheet">
+    <script type="text/javascript" src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+
+  </head>
+
+  <body>
+    <div data-step="1" data-intro="Hello! :) 这个项目叫做 Intro.js.">Intro.js-为您的网站提供更好的用户指引</div><br><br>
+    <div data-step="3" data-intro="更多的功能，更多的乐趣。">7 KB 的 JavaScript 和 3 KB CSS，就是全部</div><br><br>
+    <div data-step="2" data-intro="是不是很有趣呢？">引入 js 和 css，然后在代码中加入步骤和介绍</div><br><br>
+    <div data-step="4" data-intro="试试吧，它是免费的、开源的">为您的网站和项目提供一步一步的、更好的介绍</div>
+
+
+   <script type="text/javascript" src="assets/js/intro.js"></script>
+   <script type="text/javascript">introJs().start();</script>
+  </body>
+</html>

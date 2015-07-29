@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Basic usage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Intro.js - 为您的网站提供更好的用户指引.">
+    <meta name="author" content="chason">
+    <!-- styles -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="assets/css/layout.css" rel="stylesheet">
+
+    <!-- Add IntroJs styles -->
+    <link href="assets/css/introjs.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container-narrow">
+
+      <div class="masthead">
+        <ul class="nav nav-pills pull-right" data-step="5" data-intro="Get it, use it.">
+          <li><a href="https://github.com/usablica/intro.js/tags"><i class='icon-black icon-download-alt'></i> Download</a></li>
+          <li><a href="https://github.com/usablica/intro.js">Github</a></li>
+        </ul>
+        <h3 class="muted">Intro.js</h3>
+      </div>
+
+      <hr>
+
+      <div class="jumbotron">
+        <h1 data-step="1" data-intro="This is a tooltip!">Intro.js</h1>
+        <p class="lead" data-step="4" data-intro="Another step.">为您的网站和项目提供一步一步的、更好的介绍</p>
+        <a class="btn btn-large btn-success" href="javascript:void(0);" onclick="javascript:introJs().start();">Show me how</a>
+      </div>
+
+      <hr>
+
+      <div class="row-fluid marketing">
+        <div class="span6" data-step="2" data-intro="Ok, wasn't that fun?" data-position='right'>
+          <h4>使用简单</h4>
+          <p>引入 js 和 css，然后在代码中加入步骤和介绍。</p>
+
+          <h4>快速小巧</h4>
+          <p>7 KB 的 JavaScript 和 3 KB CSS，就是全部。</p>
+
+          <h4>免费开源</h4>
+          <p>免费和开源（包括商业用途），MIT许可证下。</p>
+          </div>
+
+        <div class="span6" data-step="3" data-intro="More features, more fun."  data-position='left'>
+          <h4>键盘加鼠标导航</h4>
+          <p>鼠标或键盘 ←, →, ENTER 导航，ESC 键退出。</p>
+
+          <h4>浏览器兼容</h4>
+          <p>目前兼容 Firefox、Chrome 和 IE8，后续版本将会提供更好的兼容。</p>
+
+          <h4>应用场景</h4>
+          <p>腾讯首页和新浪首页相继改版，都加入用户指引（或叫用户帮助）。</p>
+
+        </div>
+      </div>
+
+      <hr>
+    </div>
+    <script type="text/javascript" src="assets/js/intro.js"></script>
+  </body>
+</html>
