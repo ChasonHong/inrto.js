@@ -1,5 +1,6 @@
 # inrto.js
 Intro.js-网站功能操作分布引导插件
+[官方github项目地址](https://github.com/usablica/intro.js)
 
 #### 其它分布引导插件：
 ##### [jQuery Page Walkthrough-官网](http://jwarby.github.io/jquery-pagewalkthrough/)
